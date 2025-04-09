@@ -1,4 +1,4 @@
-name: CI/CD Docker Java
+name: CI/CD - Projet Java Docker A18_Nadi_Saad_final_1277
 
 on:
   push:
@@ -24,3 +24,4 @@ jobs:
 
       - name: Pousser l'image vers Docker Hub
         run: docker push ${{ secrets.DOCKER_USERNAME }}/a18_nadi_saad_final_1277
+
